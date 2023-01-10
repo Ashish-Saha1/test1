@@ -1,0 +1,146 @@
+  /* For responsive please consider below template */
+      .col-ds-1 {width: 8.33%;}
+      .col-ds-2 {width: 16.66%;}
+      .col-ds-3 {width: 25%;}
+      .col-ds-4 {width: 33.33%;}
+      .col-ds-5 {width: 41.66%;}
+      .col-ds-6 {width: 50%;}
+      .col-ds-7 {width: 58.33%;}
+      .col-ds-8 {width: 66.66%;}
+      .col-ds-9 {width: 75%;}
+      .col-ds-10 {width: 83.33%;}
+      .col-ds-11 {width: 91.66%;}
+      .col-ds-12 {width: 100%;}
+
+/* For responsive please consider above template */
+
+/* Header Starts Here */
+
+header{
+  position: sticky;
+  top: 0;
+}
+
+  .row-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+   
+  }
+
+  .logo-figure i{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(50%, -50%);
+  }
+  
+  #manu-icon{
+   display: none;
+   }
+   .hide-manu{
+    display: block;
+}
+
+  #manu ul{
+    flex-direction: row;
+  }
+  #manu ul li{
+    display: inline-block;
+  }
+
+  #manu ul li a{
+    background-color: transparent;
+  }
+
+
+  /* Header Ends Here */
+
+
+  .blog-bannar-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 7rem 1rem;
+      
+  }
+
+
+
+ article h1{
+  margin: 0rem 1rem;
+  width: 350px;
+  font-size: 4rem;
+  
+ }
+
+ article p{
+  margin:0rem;
+  padding: 1rem 1rem;
+  width: 100%;
+  font-size: 1.8rem;
+ }
+
+ aside img{
+margin: 1rem;
+width: 545px;
+height: 545px;
+}
+
+
+/* card starts */
+
+.title-about-me{
+  margin: 5rem 0;
+}
+
+.row-about-me{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.card{
+  
+  margin: 2rem 2rem;
+  width: 47%;
+  
+}
+
+    /* Blog posts starts */
+
+
+  #blog-post-section{
+    margin: 0rem 6rem;
+  }
+
+
+    .blog-card{
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       margin: 1.5rem;
+    
+  }
+
+  .blog-card .blog-card-img{
+    flex: 1;
+    
+  }
+
+  .blog-card-description{
+    flex: 2;
+  }
+
+
+  /* contact me starts */
+
+  .row-contact-me{
+           
+  width: 40%;
+    
+}
